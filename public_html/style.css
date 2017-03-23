@@ -1,0 +1,24 @@
+body{
+	color: black;
+/*	text-shadow:  -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  */
+	background-color:#ffa31a;
+	font-family: "Courier New";
+	font-size: 75%;
+	/* CSS Hack will make it width 100% and height 100% */
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	/* Maintain aspect ratio */
+
+	height: 100%;
+	width: 100%;
+}
+.media img {
+	max-height: 500px;
+	max-width: 500px;
+}
