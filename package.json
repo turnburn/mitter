@@ -1,0 +1,31 @@
+{
+  "name": "mitter",
+  "version": "0.1",
+  "description": "simple twitter viewer",
+  "author": "Brandon Turner <bcturner@gmail.com>",
+  "bin": {
+},
+  "main": "mitter/app.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/turnburn/mitter"
+},
+  "bugs": {
+  "url": "https://github.com/turnburn/mitter/issues"
+},
+  "keywords": [
+  "nodejitsu",
+  "example",
+  "browsenpm"
+],
+  "dependencies": {
+    "mime-types": "*",
+  },
+  "preferGlobal": true,
+  "private": false,
+},
+  
+  
+  "license": "MIT"
+}
+  
