@@ -3,13 +3,14 @@
   "version": "0.1",
   "description": "simple twitter viewer",
   "author": "Brandon Turner <bcturner@gmail.com>",
-  "bin": {
-},
-  "main": "mitter/app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
   "repository": {
   "type": "git",
   "url": "https://github.com/turnburn/mitter"
-},
+  },
   "bugs": {
   "url": "https://github.com/turnburn/mitter/issues"
 },
@@ -19,7 +20,7 @@
   "browsenpm"
 ],
   "dependencies": {
-    "mime-types": "*",
+    "mime-types": "3.1",
   },
   "preferGlobal": true,
   "private": false,
