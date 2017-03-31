@@ -1,21 +1,7 @@
-	$.ajax({method:"GET",
-				url: "/recipe/"+name,
-				dataType:"json",
-				success: function(data){
-					console.log("Loading recipe into form: ",data);
-					
-					//fill in form		
-					$("#recipeName").val(data.name.split("_").join(" "));
-					$("#recipeDuration").val(data.duration);
-					$("#recipeIngredients").val(data.ingredients);
-					$("#recipeDirections").val(data.directions);
-					$("#recipeNotes").val(data.notes);
-				},
-				cache:false
-	});
-
-
 	var user = prompt("Please enter twitter username")
+	while (user === "" || user === null){
+		user = prompt("Oops! Please try again")
+	}
 	
 	$( document ).ready(function() {
 		document.title = "mitter - @"+user
